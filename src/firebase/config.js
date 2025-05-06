@@ -1,9 +1,21 @@
+
+
+
 import firebase from '@react-native-firebase/app';
+import auth from '@react-native-firebase/auth';
+import firestore from '@react-native-firebase/firestore';
+
 //import firestore from '@react-native-firebase/firestore';
 import storage from '@react-native-firebase/storage';
-import '@react-native-firebase/auth';
+////import '@react-native-firebase/auth';
 
-import '@react-native-firebase/firestore';
+////import '@react-native-firebase/firestore';
+
+
+//added
+//import { initializeApp } from firebase/app
+import { getAuth } from 'react-native-firebase/auth'
+//added
 
 
 const firebaseConfig = {
@@ -25,11 +37,22 @@ const firebaseConfig = {
     measurementId: "G-PVRM21E6EV"
 };
 
+//ommented
 if (!firebase.apps.length) {
     firebase.initializeApp(firebaseConfig);
 }
+//commented
+
+
 
 // export { firestore, storage };
 // export const auth = firebase.auth; 
-export const firestore = firebase.firestore;
-export const auth = firebase.auth();
+
+////export const firestore = firebase.firestore;
+
+//commented
+//export const auth = firebase.auth();
+//commmented
+
+export { auth, firestore, storage };
+export default firebase;

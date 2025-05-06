@@ -129,6 +129,8 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import HomeScreen from './src/screens/HomeScreen';
 import { NavigationContainer } from '@react-navigation/native';
+import HelloScreen from './src/screens/HelloScreen';
+import LoginScreen from './src/screens/LoginScreen';
 
 const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -191,6 +193,9 @@ const App: () => Node = () => {
         </View> */}
         <NavigationContainer>
         <HomeScreen />
+        {/* <HelloScreen /> */}
+        {/* <LoginScreen /> */}
+          {/* <LoginScreen /> */}
         </NavigationContainer>
       </ScrollView>
     </SafeAreaView>

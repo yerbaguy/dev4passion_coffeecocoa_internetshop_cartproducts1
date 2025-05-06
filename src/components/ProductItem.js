@@ -3,6 +3,8 @@ import { View, Text, Image, Button, StyleSheet, Alert } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { firestore, auth } from '../firebase/config';
 
+import { addToCartt } from '../context/CartContext';
+
 const ProductItem = ({ product, onDelete }) => {
     const navigation = useNavigation();
 
@@ -83,6 +85,7 @@ const ProductItem = ({ product, onDelete }) => {
                 />
                 <Button title="Delete" color="red" onPress={() => onDelete(product.id)} />
                 <Button title="Add to Cart" color="green" onPress={addToCart} />
+                {/* <Button title="Add to Cart" color="green" onPress={addToCartt} /> */}
             </View>
         </View>
     );
