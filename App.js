@@ -192,10 +192,10 @@ const App: () => Node = () => {
           <LearnMoreLinks />
         </View> */}
         <NavigationContainer>
-        <HomeScreen />
+        {/* <HomeScreen /> */}
         {/* <HelloScreen /> */}
         {/* <LoginScreen /> */}
-          {/* <LoginScreen /> */}
+          <LoginScreen />
         </NavigationContainer>
       </ScrollView>
     </SafeAreaView>

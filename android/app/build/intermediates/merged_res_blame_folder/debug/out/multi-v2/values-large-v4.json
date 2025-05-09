@@ -4,7 +4,7 @@
             "outputFile": "/Users/bartosz/Documents/react-native/dev4passion_coffeecocoa_internetshop_cartproducts/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "/Users/bartosz/.gradle/caches/transforms-3/a5da391e889210c4d2ba1ae6744f6033/transformed/appcompat-1.4.1/res/values-large-v4/values-large-v4.xml",
+                    "source": "/Users/bartosz/.gradle/caches/transforms-3/53122dfddfd0b682fe74c9823d5d0125/transformed/appcompat-1.4.1/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
